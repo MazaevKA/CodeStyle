@@ -4,13 +4,54 @@ body {
   font-family: sans-serif;
 }
 
-.title {
-  font-size: 40px;
-}
-
 .container {
   max-width: 900px;
   margin: 0 auto;
+}
+
+blockquote {
+  border-left: 2px solid #dcdde1;
+  margin-left: 0;
+  padding-left: 40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+a {
+  color: #dcdde1;
+}
+
+figure {
+  display: inline-block;
+  margin: 0 95px 0 0;
+}
+
+figure:last-child {
+  margin-right: 0;
+}
+
+figcaption {
+  margin-bottom: 30px;
+}
+
+figure img {
+  display: inline-block;
+  width: 400px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:before {
+  content: "— ";
+}
+
+.title {
+  font-size: 40px;
 }
 
 .link {
